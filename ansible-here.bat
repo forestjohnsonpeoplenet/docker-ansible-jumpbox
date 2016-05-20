@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files\Git\bin\bash.exe" -c "docker run --name ansible_jumpbox_temp -v /$(pwd):/shared_volume fjohnson/docker-ansible-jumpbox bash -c ""cd /shared_volume && ansible %*"" && docker rm -f ansible_jumpbox_temp"

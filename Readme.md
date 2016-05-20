@@ -1,4 +1,4 @@
-###Run ansible inside a container from windows 
+##Run ansible inside a container from windows manually
 
 [Guide on how to build docker images on windows](https://docs.docker.com/windows/step_four/)
 
@@ -25,6 +25,7 @@ Use ansible
 
 ```
 git clone ...
+cd ...
 ansible ...
 ```
 
@@ -32,4 +33,18 @@ exit to docker
 
 ```
 exit
+```
+
+
+###Run ansible inside an ephemeral container with the current working directory mounted to the container.
+
+(Experimental)
+
+First, you must add the folder where `ansible-here.bat` lives to your PATH or address it by full path.
+
+Second, you must run it from a process which is running as administrator so the docker client will work (at least on my machine).
+
+```
+cd project/with/ansible/files
+ansible-here [ansible arguments]
 ```
