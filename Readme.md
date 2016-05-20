@@ -32,7 +32,7 @@ cd ...
 ansible ...
 ```
 
-exit to bash
+exit to bash.exe
 
 ```
 exit
