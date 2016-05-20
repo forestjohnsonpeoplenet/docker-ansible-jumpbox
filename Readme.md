@@ -32,7 +32,7 @@ cd ...
 ansible ...
 ```
 
-exit to docker
+exit to bash
 
 ```
 exit
