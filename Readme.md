@@ -7,6 +7,7 @@ Prerequisite to all of this: [Install Docker Toolbox for windows](https://docs.d
 go to the `docker-ansible-jumpbox` folder and build the `Dockerfile` into an image tagged `fjohnson/docker-ansible-jumpbox`
 
 ```
+"C:\Program Files\Git\bin\bash.exe"
 cd /path/to/docker-ansible-jumpbox
 docker build -t fjohnson/docker-ansible-jumpbox .
 ```
