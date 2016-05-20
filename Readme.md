@@ -1,6 +1,8 @@
 ##Run ansible inside a container from windows manually
 
-[Guide on how to build docker images on windows](https://docs.docker.com/windows/step_four/)
+Prerequisite to all of this: [Install Docker Toolbox for windows](https://docs.docker.com/windows/). 
+
+[Guide on how to build docker images on windows](https://docs.docker.com/windows/step_four/) (This is an example tutorial that explains more about docker on windows.)
 
 go to the `docker-ansible-jumpbox` folder and build the `Dockerfile` into an image tagged `fjohnson/docker-ansible-jumpbox`
 
