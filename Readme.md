@@ -39,7 +39,7 @@ exit
 ```
 
 
-###Run ansible inside an ephemeral container with the current working directory mounted to the container.
+###Run ansible from `cmd` inside an ephemeral container with the current working directory mounted to the container.
 
 (Experimental)
 
