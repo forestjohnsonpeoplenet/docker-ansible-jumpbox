@@ -20,3 +20,16 @@ go into the container and start a bash session
 ```
 docker exec -i -t ansible_jumpbox bash
 ```
+
+Use ansible
+
+```
+git clone ...
+ansible ...
+```
+
+exit to docker
+
+```
+exit
+```
