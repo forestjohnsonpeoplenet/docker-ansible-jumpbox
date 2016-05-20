@@ -8,7 +8,7 @@ go to the `docker-ansible-jumpbox` folder and build the `Dockerfile` into an ima
 
 ```
 C:\Program Files\Git\bin\bash.exe
-cd /path/to/docker-ansible-jumpbox
+cd /c/path/to/docker-ansible-jumpbox
 docker build -t fjohnson/docker-ansible-jumpbox .
 ```
 
